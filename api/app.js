@@ -386,9 +386,9 @@ let deleteTasksFromList = (_listId) => {
 
 
 
-// app.listen(3000, () => {
-//     console.log("Server is listening on port 3000");
-// })
+app.listen(3000, () => {
+    console.log("Server is listening on port 3000");
+})
 
-const app = require('../../app');
-const http = require('http').createServer(app).listen(3000);
+// const app = require('../../app');
+// const http = require('http').createServer(app).listen(3000);
